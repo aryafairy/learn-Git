@@ -9,3 +9,6 @@ git commit -m"message" //上传文件输出原因
 two lesson
 git status //当前git工作区的状态
 git diff //查看修改的git内容
+
+three lesson
+git log //查看更新版本信息
