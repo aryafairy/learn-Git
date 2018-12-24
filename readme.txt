@@ -1,6 +1,8 @@
 it is a first git belong to huke
 let is do it
 
+					chapter one
+
 one lesson
 git init //初始化一个git仓库
 git add [file] //添加文件
@@ -25,3 +27,8 @@ git存在三个区：工作区，暂存区，master
 3、已经commit到master，但没有push：
 	回退版本，参照three lesson
 
+five lesson
+git rm [file] //删除文件
+
+                 chapter two
+one lesson
