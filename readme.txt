@@ -68,7 +68,7 @@ fast forward模式下，删除分支，会丢掉分支信息
 git merge --no--ff -m "" <name>
 
 four lesson
-
+现在修复bug中。。。
 
 
 
