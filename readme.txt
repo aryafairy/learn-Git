@@ -62,6 +62,12 @@ two lesson
 当有冲突的时候，先解决冲突，再提交
 git log -- graph //查看分支合并图
 
+three lesson
+fast forward模式下，删除分支，会丢掉分支信息
+禁止ff模式，git会在merge时生成一个新的commit，这样就可以查看到分支信息了
+git merge --no--ff -m "" <name>
+
+four lesson
 
 
 
