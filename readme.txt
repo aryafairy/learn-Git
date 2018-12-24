@@ -68,8 +68,11 @@ fast forward模式下，删除分支，会丢掉分支信息
 git merge --no--ff -m "" <name>
 
 four lesson
-
-
+git stash //储存当前工作
+git stash list//查看工作存取在哪里
+git stash appy //恢复后stash不删除
+git stash drop //删除存储的工作区
+git stash pop //恢复同时删除stash内容
 
 
 
