@@ -49,13 +49,19 @@ one step:在GitHub上创建新项目
 two step:$ git clone [项目名]
 
 				 chapter three 分支
+one lesson
 创建分支：
 git branch //查看分支
 git branch <name> //创建分支
 git checkout <name> //切换分支
 git checkout -b <name> //创建+切换分支
-git 难道没有保存吗？？？
-很无语
+git merge <name> //将分支合并到master
+git branch -d <name> //删除分支
+
+two lesson
+当有冲突的时候，先解决冲突，再提交
+git log -- graph //查看分支合并图
+
 
 
 
