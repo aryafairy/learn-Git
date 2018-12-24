@@ -31,4 +31,25 @@ five lesson
 git rm [file] //删除文件
 
                  chapter two
-one lesson
+git远程仓库
+git是一个分布式版本系统，在没有互联网的情况下也可以正常工作。
+当有网络后，可以再把本地提交push完成同步。
+
+在GitHub上免费获得远程仓库
+one step：创建SSH Key //$ ssh-keygen -t rsa -C "youremail@example.com"
+		  获得id_rsa(私钥)，id_rsa.pub(公钥)
+two step:登录GitHub，打开Account setting -->add SSH Key 填写id_rsa.pub
+本地仓库与gitHub仓库远程协作
+先本地，后远程
+one step：在GitHub上创建新项目
+two step：$ git remote add origin git@github.com:michaelliao/learngit.git
+		  $ git push -u origin master
+先远程，后本地
+one step:在GitHub上创建新项目
+two step:$ git clone [项目名]
+
+
+
+
+
+
