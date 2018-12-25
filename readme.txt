@@ -76,7 +76,26 @@ git stash drop //删除存储的工作区
 git stash pop //恢复同时删除stash内容
 
 five lesson
+git remote -v //查看远程库信息
+本地新建的分支如果不推送到远程，对其他人就是不可见的；
+从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
+从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
 
+git push origin :<name> //删除orgigin里的分支
+
+six lesson
+git rebase <branch> //将历史整理成直线
+rebase会把之前分支里的每个提交取消，并把他们临时保存为补丁（补丁保存在.git/rebase目录中）
+然后把分支更新到最新的“origin”，然后再把补丁运用到分支中。
+之前的提交被删除。
+git rebase --continue //继续应用余下补丁
+git rebase --abort //终止rebase，回到之前状态
+
+				 chapter three
+
+git tag <name> //打新标签，默认是打在最新提交的commit上
 
 
 
