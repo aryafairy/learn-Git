@@ -1,6 +1,4 @@
 it is a first git belong to huke
-let is do it
-
 					chapter one
 
 one lesson
@@ -94,8 +92,13 @@ git rebase --continue //继续应用余下补丁
 git rebase --abort //终止rebase，回到之前状态
 
 				 chapter three
-
+标签总是和某个commit挂钩。如果这个commit既出现在master分支，又出现在dev分支，那么在这两个分支上都可以看到这个标签。
 git tag <name> //打新标签，默认是打在最新提交的commit上
+git tag -a<tagname> -m "" //制定标签并记录信息
+git tag //查看所有标签
+git show <tagname> //查看当前标签
 
-
-
+git tag -d <tagname>//删除本地标签
+git push origin <tagname> //推送一个本地标签
+git push origin --tags //推送全部未推送的本地标签
+git push origin :refs/tags/<tagname> //删除远程标签
